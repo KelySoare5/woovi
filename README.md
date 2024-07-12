@@ -1,9 +1,30 @@
 Objetivo do projeto{
-    O projeto é um desafio da empresa Woovi para a vaga de desenvolvedor front-end
+    O site disponibiliza opções de pagamento, onde o cliente tem a opção de marca para realizar o pagamento de 1x no pix, como também, tem opções de parcelamentos de ate 7x.
+    Para realização de pagamento é disponibilizado o QRcode e o identificador. Na mesma tela é possível selecionar a opção de dividir o valor em 2x no cartão.
+    Para finalizar o pagamento, o cliente adiciona informação pessoais, como cpf, e adicona infomações do cartão, numero do cartão, vencimento e CVV.
+
+}
+Requisitos funcionais e não funcionais{
+    o cliente deve fazer:
+        Pagar conta
+        Escolher forma de pagamento
+        Pagar de 1x ou dividir em até 7x no pix
+        Cadastrar cartão de credito   
+    O sistema deve fazer:
+        Armazenar informações no cliente
+        Possibilidade de calcular as parcelas e apresentar o valor com o juros ja adicionado
+        Gerar o QRcode de pagamento
+        Armazenar dados do cartão do cliente     
 }
 
-Objetivos dos arquivos criados{
-    pag_1 - este aqui contem conteudo da primeira pagina, esta pagina apresenta formas de pagamento no pix
+Funcionalidade dos arquivos criados{
+    componenst contém:
+        Header - com a logo da Woovi e apresentação de saudação ao cliente e informação de pagamento.
+        Main - contém os cards com valores e a quantidade de vezes que o cliente pode dividir.
+        Footer - Frase para trazer segurança ao cliente
+
+    Pages contém:
+        Paginaum - Nela é exportando os Components e redenrizado na tela.
 }
 
 
