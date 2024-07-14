@@ -8,7 +8,7 @@ export const div = styled.div`
 
 `
 export const nomePix = styled.div`
-    border: 1px solid blue;
+    background: #E5E5E5;
     border-radius: 10px;
     width: 80px;
 

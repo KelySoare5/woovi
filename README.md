@@ -17,6 +17,10 @@ Requisitos funcionais e não funcionais{
         Armazenar dados do cartão do cliente     
 }
 
+Fonte{
+    Link do google fonts da fonte nunito, link adicioando no HTML
+}
+
 Funcionalidade dos arquivos criados{
     componenst contém:
         Header - com a logo da Woovi e apresentação de saudação ao cliente e informação de pagamento.
