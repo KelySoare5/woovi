@@ -4,6 +4,10 @@ Objetivo do projeto{
     Para finalizar o pagamento, o cliente adiciona informação pessoais, como cpf, e adicona infomações do cartão, numero do cartão, vencimento e CVV.
 
 }
+
+prototipo{
+    https://www.figma.com/design/hv1LgD7oNrtlmfWgKBG6PF/Woovi-Desafio-Front?node-id=0-1&t=AVtVZXhVnNVxASec-0
+}
 Requisitos funcionais e não funcionais{
     o cliente deve fazer:
         Pagar conta
@@ -18,7 +22,11 @@ Requisitos funcionais e não funcionais{
 }
 
 Fonte{
-    Link do google fonts da fonte nunito, link adicioando no HTML
+    Nunito: fonte externa, disponivel no google fonts, link adicioando no HTML
+}
+
+Instalações{
+    
 }
 
 Funcionalidade dos arquivos criados{

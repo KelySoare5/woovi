@@ -5,13 +5,26 @@ export const Pix: React.FC = () =>{
     return(
         <>
             <S.div>
-                <S.nomePix>
-                    PIX
-                </S.nomePix>
-                <S.valor>1 x R$ 30.500,00</S.valor>
-                <S.cashBack>3% de cashback</S.cashBack>
+
+                <S.caixaNomePix>
+                    <S.nomePix>
+                        Pix
+                    </S.nomePix>
+                </S.caixaNomePix>
+
+                <S.fraseCashback>
+                    <S.parcelaValor>
+                        <S.parcela>1 x </S.parcela>
+                        <S.valor>R$ 30.500,00</S.valor>
+                    </S.parcelaValor>
+                </S.fraseCashback>
+
+                <S.cashBack>Ganhe <S.porcentagem>3%</S.porcentagem> de Cashback</S.cashBack>
+
                 <S.barraAzul>
-                    <S.oferta>R$ 300,00 de volta no seu Pix na hora</S.oferta>
+                    <S.ofertaPagamento>
+                    🤑 R$ 300,00 <S.valorOferta>de volta no seu Pix na hora</S.valorOferta>
+                    </S.ofertaPagamento>
                 </S.barraAzul>
             </S.div>
         </>
