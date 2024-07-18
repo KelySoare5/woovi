@@ -1,5 +1,6 @@
 import React from "react"
 import * as S from "./styled"
+import Rectangle from "../../../assets/imgs/rectangle.png"
 
 export const Pix: React.FC = () =>{
     return(
@@ -22,6 +23,7 @@ export const Pix: React.FC = () =>{
                 <S.cashBack>Ganhe <S.porcentagem>3%</S.porcentagem> de Cashback</S.cashBack>
 
                 <S.barraAzul>
+                    <S.img src={Rectangle}></S.img>
                     <S.ofertaPagamento>
                     🤑 R$ 300,00 <S.valorOferta>de volta no seu Pix na hora</S.valorOferta>
                     </S.ofertaPagamento>
