@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 // conteiner
 export const div = styled.div`
-    border: 1px solid black;
+    border: 2px solid #E5E5E5;
     width: 90%;
     margin: 20px auto;
     border-radius: 5px;
@@ -10,20 +10,22 @@ export const div = styled.div`
 
     
 `
+// Conteiner
 export const caixaNomePix = styled.div`
     background: #E5E5E5;
     text-align: center;
-    width: 60px;
+    width: 50px;
     margin-top: -10px;
     height: 25px;
     border-radius: 100px;
 `
 export const nomePix = styled.p`
     font-family: Nunito;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 800;
     color: #4D4D4D;
 `
+//Conteiner
 export const parcelaValor = styled.div`
     color: #4D4D4D;
     font-family: Nunito;

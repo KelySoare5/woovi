@@ -13,14 +13,16 @@ export const Pix: React.FC = () =>{
                     </S.nomePix>
                 </S.caixaNomePix>
 
+                <S.parcelaValor>
+                    <S.parcela>1 x </S.parcela>
+                    <S.valor>R$ 30.500,00</S.valor>
+                </S.parcelaValor>
+
                 <S.fraseCashback>
-                    <S.parcelaValor>
-                        <S.parcela>1 x </S.parcela>
-                        <S.valor>R$ 30.500,00</S.valor>
-                    </S.parcelaValor>
+                    <S.cashBack>
+                    Ganhe <S.porcentagem>3%</S.porcentagem> de Cashback</S.cashBack>
                 </S.fraseCashback>
 
-                <S.cashBack>Ganhe <S.porcentagem>3%</S.porcentagem> de Cashback</S.cashBack>
 
                 <S.barraAzul>
                     <S.img src={Rectangle}></S.img>
