@@ -2,11 +2,14 @@ import styled from "styled-components";
 
 // conteiner
 export const div = styled.div`
-    border: 2px solid #E5E5E5;
+    margin-left:30px;
+    margin-top: 20px;
+    /* border: 2px solid #E5E5E5; */
+    /* border: 2px solid #E5E5E5;
     width: 90%;
     margin: 20px auto;
     border-radius: 5px;
-    padding: 0px 10px;
+    padding: 0px 10px; */
 
     
 `
@@ -15,7 +18,6 @@ export const caixaNomePix = styled.div`
     background: #E5E5E5;
     text-align: center;
     width: 50px;
-    margin-top: -10px;
     height: 25px;
     border-radius: 100px;
 `

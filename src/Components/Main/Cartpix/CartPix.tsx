@@ -2,16 +2,16 @@ import React from "react"
 import * as S from "./styled"
 import Rectangle from "../../../assets/imgs/rectangle.png"
 
-export const Pix: React.FC = () =>{
+export const CartPix: React.FC = () =>{
     return(
         <>
             <S.div>
 
-                <S.caixaNomePix>
+                {/* <S.caixaNomePix>
                     <S.nomePix>
                         Pix
                     </S.nomePix>
-                </S.caixaNomePix>
+                </S.caixaNomePix> */}
 
                 <S.parcelaValor>
                     <S.parcela>1 x </S.parcela>

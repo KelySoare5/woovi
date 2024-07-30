@@ -1,22 +1,22 @@
 import React from "react";
 import { Header } from '../Components/Header/Header';
-import { Pix } from '../Components/Main/pix/Pix';
-import { Pixparcelado } from '../Components/Main/pixParcelado/Pixparcelado';
+import {CartParcelado} from '../Components/Main/CartParcela/CartParcela'
+import { CartPix } from '../Components/Main/Cartpix/CartPix';
+import { Pixparcelado } from '../Components/FormaPagar/pixParcelado/Pixparcelado';
 import { Footer } from "../Components/Footer/Footer";
+import { Pix } from "../Components/FormaPagar/Pix/Pix";
 
 
 export const PaginaUm:React.FC = () => {
     return(
         <>
             <Header />
-            <Pix/>
+            <Pix />
+            <CartPix/>
             <Pixparcelado />
-            <Pixparcelado />
-            <Pixparcelado />
-            <Pix/>
-            <Pixparcelado />
-            <Pixparcelado />
-            <Pixparcelado />
+            <CartParcelado />
+            
+            
             <Footer />
 
         </>
