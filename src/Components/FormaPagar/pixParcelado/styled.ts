@@ -1,13 +1,12 @@
 import styled from "styled-components";
 
-// export const conteiner = styled.div`
-//     border: 2px solid #E5E5E5;
-//     width: 90%;
-//     margin: 20px auto;
-//     border-radius: 5px;
-//     padding: 0px 10px;
+export const Div = styled.div`
+    /* border: 2px solid #E5E5E5; */
+    width: 90%;
+    margin-top: 20px;
+    margin-left:  30px;
 
-// `
+`
 // Conteiner
 export const caixaPixParcelado = styled.div`
     background: #E5E5E5;

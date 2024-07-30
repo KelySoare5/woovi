@@ -3,9 +3,11 @@ import styled from "styled-components";
 export const conteiner = styled.div`
     border: 2px solid #E5E5E5;
     width: 90%;
-    margin: 20px auto;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: -10px;
     border-radius: 5px;
-    padding: 0px 10px;
+    padding: 10px 10px;
 
 `
 // Conteiner
